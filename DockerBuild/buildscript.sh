@@ -1,5 +1,6 @@
 #!/bin/bash
-cd 
+
+cd DockerBuild
 
 docker build -t $DOCKER_REGISTRY_URL$JOB_NAME:$BUILD_ID .
 
